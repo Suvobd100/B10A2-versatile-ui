@@ -1,0 +1,27 @@
+/* Responsive Breakpoint:
+
+Small device: upto 576 px 
+
+Medium Device: 576px to 992 px 
+
+Large Device: above 993 px  */
+
+/* nav bar start */
+
+@media screen and (max-width:500px) 
+{
+    .navbar-main{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .nav-hambarger-menu{
+        display: block;
+        align-items: center;
+        margin-top: 10px;
+        
+    }
+    .navbar-main ul{
+        display: none;
+    }
+}
+/* nav bar end */

@@ -11,15 +11,21 @@
       padding: 0px;
       box-sizing: border-box;
   }
-  
+  /* body of page start */
+  body{
+    background-color: black;
+  }
+   /* body of page end */
+
   /* nav bar start */
-  .nav-bar-main{
+  .navbar-main{
       border: 2px solid red;
       display: flex;
       justify-content: space-between;
       max-width: 1200px;
       margin: 0 auto;
       margin-top: 58px;
+      color: white
   }
   
   .navbar-main ul{
@@ -29,11 +35,27 @@
   .navbar-main ul li{
      list-style: none;
      margin-right: 34px;
+     margin-top: 8px;
+     font-size: 18px;
   }
   .navbar-main ul li a{
      text-decoration: none;
   }
   
+  .btn-nav{
+    margin-right: 45px;
+    background-color: #E6533C;
+    color: white;
+    width: 92px;
+    border-radius: 40px;
+    padding: 8px 20px 8px 20px;
+  }
+  .navbar-main h1{
+    color: #E6533C;
+    font-weight: 800;
+    Font-size: 36px;
+    font-style: italic;
+  }
   .nav-hambarger-menu{
       display: none;
   
