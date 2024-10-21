@@ -60,6 +60,40 @@
       display: none;
   
   }
-  
-  
+    
   /* nav bar end */
+
+  /* hero section start */
+.hero-section{
+    max-width: 1200px;
+    margin: 0 auto;
+    min-height: 600px;
+    border: 2px solid blue;
+    margin-top: 70px;
+    color: white;
+}
+
+.hero-contain{
+    display: flex;
+    align-items: center;
+}
+
+.hero-child{
+    width: 50%;
+    border: 2px solid green;
+}
+.hero-child h1{
+    font-size: 78;
+    font-weight: 900;
+}
+.hero-img{
+    width: 350px;
+    height: 580px;
+    background-image :url(../images/Images\ 2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}   
+
+
+/* hero section end */
