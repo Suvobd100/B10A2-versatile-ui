@@ -82,9 +82,36 @@
     width: 50%;
     border: 2px solid green;
 }
+
+.hero-child-words{
+    margin-top: -280px;
+}
 .hero-child h1{
     font-size: 78;
     font-weight: 900;
+}
+
+.hero-child-words p{
+    margin-top: 25px;
+    margin-bottom: 40px;
+}
+
+.btn-hero-child-words-1{
+    width: 30%;
+    padding: 20px 20px;
+    border-radius:40px ;
+    background-color: #E6533C;
+    color: white;
+   
+}
+.btn-hero-child-words-2{
+    width: 30%;
+    padding: 20px 20px;
+    border-radius:40px ;
+    background-color: black;
+    border: 1px solid silver;
+    color: white;
+   
 }
 .hero-img{
     width: 350px;
