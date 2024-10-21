@@ -4,7 +4,17 @@
     font-family: "Inter Tight", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
+
   }
+
+
+  .pacifico-regular {
+        font-family: "Pacifico", cursive;
+        font-weight: 400;
+        font-style: normal;
+      }
+      
+
   
   *{
       margin: 0px;
@@ -89,6 +99,10 @@
 .hero-child h1{
     font-size: 78;
     font-weight: 900;
+}
+
+.style-word{
+    font-family:pac
 }
 
 .hero-child-words p{
