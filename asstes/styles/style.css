@@ -317,3 +317,45 @@
     border-radius:10%;
 }
 /* run extra end */
+/* ***************************************************** */
+/* BMI Calculator section start */
+
+.bmi-calculator-section{
+    max-width: 1200px;
+    margin: 0 auto;
+    min-height: 400px; 
+    border: 2px solid red;
+
+}
+.chart{
+    border: 2px solid blue;
+}
+
+.chart h1{
+    color:white;
+    text-align: center;
+}
+table{
+    width: 50%;
+     
+}
+
+th,td{
+    padding: 1rem;
+}
+th{
+    text-align: left;
+    color:white;
+}
+td{
+    color: rgba(255, 255, 255, 0.5)
+}
+table,th,td{
+    width: 500px;
+    margin: auto;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    border-collapse: collapse;
+    
+}
+
+/* BMI Calculator section end*/
