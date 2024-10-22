@@ -8,7 +8,7 @@ Large Device: above 993 px  */
 
 /* nav bar start */
 
-@media screen and (max-width:500px) 
+@media screen and (max-width:576px) 
 {
     .navbar-main{
         padding-left: 20px;
@@ -22,8 +22,86 @@ Large Device: above 993 px  */
     }
     .navbar-main ul{
         display: none;
-        background-image: ;
+        /* background-image: ; */
     }
-}
 /* nav bar end */
+
+/* hero section start */
+
+.hero-section{
+    margin-top: 80%;
+   
+}
+
+.hero-child{
+    width: 100%;
+    /* border: 2px solid green; */
+    position: relative;
+}
+.hero-contain{
+  flex-direction: column;
+  padding:2%;
+}
+
+
+.btn-hero-child-words-1{
+    width: 40%;
+    padding: 20px 20px;
+    border-radius:40px ;
+    background-color: #E6533C;
+    color: white;
+    
+   
+}
+.btn-hero-child-words-2{
+    width: 40%;
+    padding: 20px 20px;
+    border-radius:40px ;
+    background-color: black;
+    border: 1px solid silver;
+    color: white;
+    margin-right: 10%;
+   
+}
+
+.btn-Free-work-out-video{
+    text-align: center;
+    padding: 2px 10px;
+    width: 190px;
+    height: 98px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.10);
+    position: absolute;
+    top:10%;
+    right: 15%;
+    /* background-color:#E6533C; */
+}
+
+.btn-video-tutorial{
+    text-align: center;
+    padding: 2px 10px;
+    width: 220px;
+    height: 98px;
+    /* border: 2px solid purple; */
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.10);
+    position: absolute;
+    top: 65%;
+    right: 50%;
+    color: white;
+
+}
+
+.circle-div{
+    width: 50px;
+    height: 45px;
+    background: #E6533C;
+    border-radius: 50%;
+    position: absolute;
+    top: 70%;
+    left:5%;
+}
+/* hero section end */
+}
+
 
