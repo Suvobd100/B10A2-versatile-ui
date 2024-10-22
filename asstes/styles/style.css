@@ -203,20 +203,73 @@
 
 .habits-container h1{
     margin-top: 10%;
-    color: white;
+    color:rgb(255, 255, 255);
     text-align: center;
+    font-size: 48px;
+    font-weight: 900px;
     
 }
 
 .habits-container{
     display: flex;
     flex-direction: column;
+   
 }
 .habit-p{
     margin-top: 2%;
-    color: white;
+    color: rgba(255, 255, 255, 0.5);
     text-align: center;
     border: 2px solid blue;
     
 }
-/* habites section end */
+
+.habits-4img-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: silver;
+    
+}
+
+.slide-content{
+    /* background-color: aquamarine; */
+   
+    
+} 
+.card-content{
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: blueviolet;
+    padding: 8px 14px;
+    margin-top: 10px;
+    
+}
+
+.card-content p{
+    /* margin-top: 5px; */
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: 3px;
+    text-align: center;
+
+}
+
+.card-image{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: 5px solid red;
+    margin: 0 auto;
+  
+    
+}
+
+.card-img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+/* habits section end */
