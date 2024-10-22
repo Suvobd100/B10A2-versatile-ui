@@ -181,6 +181,12 @@
 
         <!-- BMI Calculator section start -->
          <div class="bmi-calculator-section">
+            <div class="bim-head"> 
+                <h1>BMI Calculator</h1>
+                <p>BMI (Body Mass Index) calculator measures body fat by comparing weight with height. <br>This will help you estimate a healthy weight range for fit life.</p>
+            </div>
+          
+           <div class="bim-data">
             <div class="chart">
                 <h1>BMI Calculator Chart</h1>
                 <table>
@@ -212,8 +218,40 @@
 
             </div>
             <div class="calculate">
+                <div class="calculate-headre">
+                    <h1>Calculate your BMI</h1>
+                    <p>To calculate BMI, divide your weight (kg) <br> by your height (m²). It estimates body fat and health risks.</p>
+                </div>
+                <div class="bmi-form-container">
+
+                    <div class="form-field">
+                        <input type="text" placeholder="Height/cm">
+                        <input type="text" placeholder="Weight/kg">
+                    </div>
+                    <div class="form-field">
+                        <input type="text" placeholder="Age">
+                        <select class="sex" name="Sex" id="sex" value="Sex">
+                            <option value="sex">Sex</option>
+                            <option value="female">Male</option>
+                            <option value="female">Female</option>
+                        </select>
+                    </div>
+                    
+                </div>
+                <div>
+                    <select class="active-factor" name="factor" >
+                        <option value="sex">Select an activity factor</option>
+                        <option value="active">Active</option>
+                        <option value="nonactive">Non-Active</option>
+                    </select>
+                </div>
+                <span>
+                    <button class="btn-calculate">Calculate</button>
+                </span>
 
             </div>
+
+           </div>
          </div>
 
         <!-- BMI Calculator section end -->

@@ -140,10 +140,45 @@ Large Device: above 993 px  */
 /* ***************************************************** */
 /* BMI Calculator section start */
 
+.bim-data{
+    flex-direction: column;
+}
+.chart{
+    width: 65%;
+}
 
+.bim-data{
+    flex-direction: column;
+   /* margin-left: 4%; */
+}
+.calculate-headre{
+    text-align: center;
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+.calculate-headre p{
+    text-align: center;
+    /* margin-bottom: 2%; */
+    margin-top: 2%;
+}
+.bmi-form-container{
+    text-align: center;
+    margin-left:20%;
 
-
-
+}
+.form-field{
+    width:80%;
+.sex{
+    width:45%;
+}
+.active-factor{
+    /* margin-top: 3px; */
+    width:-2px;
+   
+}
+.btn-calculate{
+    margin-left:5%;
+}
 
 /* BMI Calculator section end*/
 
