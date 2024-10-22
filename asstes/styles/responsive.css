@@ -110,6 +110,17 @@ Large Device: above 993 px  */
     left:5%;
 }
 /* hero section end */
+/* habit section start */
+.habits-container{
+      flex-direction: column;
+   
+}
+
+.habits-4img-container{
+    flex-direction: column;
+    
+}
+/* habit section end */
 }
 
 

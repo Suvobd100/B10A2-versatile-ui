@@ -219,7 +219,7 @@
     margin-top: 2%;
     color: rgba(255, 255, 255, 0.5);
     text-align: center;
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     
 }
 
@@ -227,21 +227,18 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: silver;
+    /* background-color: silver; */
+    margin-top:5%;
     
 }
 
-.slide-content{
-    /* background-color: aquamarine; */
-   
-    
-} 
+
 .card-content{
     color: white;
     display: flex;
     align-items: center;
     flex-direction: column;
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
     padding: 8px 14px;
     margin-top: 10px;
     
@@ -259,7 +256,7 @@
     height: 150px;
     width: 150px;
     border-radius: 50%;
-    border: 5px solid red;
+    /* border: 5px solid red; */
     margin: 0 auto;
   
     
