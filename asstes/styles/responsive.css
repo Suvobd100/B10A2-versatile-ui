@@ -43,6 +43,14 @@ Large Device: above 993 px  */
   padding:2%;
 }
 
+.hero-child-words p{
+    margin-top: 25px;
+    margin-bottom: 40px;
+    display:inline-block; 
+    text-align:left;
+    /* background-color: aliceblue; */
+}
+
 
 .btn-hero-child-words-1{
     width: 40%;
@@ -87,7 +95,7 @@ Large Device: above 993 px  */
     background: rgba(255, 255, 255, 0.10);
     position: absolute;
     top: 65%;
-    right: 50%;
+    right: 40%;
     color: white;
 
 }
