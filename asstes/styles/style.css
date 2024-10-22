@@ -30,6 +30,7 @@
   /* nav bar start */
   .navbar-main{
       /* border: 2px solid red; */
+      margin-top: 10%;
       display: flex;
       justify-content: space-between;
       max-width: 1200px;
