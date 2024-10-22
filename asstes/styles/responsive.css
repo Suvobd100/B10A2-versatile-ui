@@ -121,6 +121,22 @@ Large Device: above 993 px  */
     
 }
 /* habit section end */
+
+/* run extra start */
+.run-extra-section{
+    flex-direction: column;
+}
+.run-extra-text{
+    margin-top: 20px;
+}
+
+.run-extra-img img{
+ 
+    width: 350px;
+    margin-top: 20px;
+}
+/* run extra end */
+
 }
 
 
