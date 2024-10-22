@@ -198,7 +198,7 @@
     max-width: 1200px;
     margin: 0 auto;
     min-height: 600px; 
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
 
 .habits-container h1{
@@ -270,3 +270,40 @@
 }
 
 /* habits section end */
+
+/* run extra start */
+.run-extra-section{
+    max-width: 1200px;
+    margin: 0 auto;
+    min-height: 400px; 
+    border: 2px solid red;
+    display: flex;
+    justify-content: center;
+    align-content:space-between;
+    align-items: center;
+    background-color: rgb(34, 34, 34);
+    gap: 20%;
+    border-radius: 3%;
+}
+
+.run-extra-text{
+    color: white;
+}
+.run-extra-text p{
+    margin-top: 20px;
+
+}
+.btn-join-now{
+    background-color: #E6533C;
+    color: white;
+    margin-top: 30px;
+
+}
+
+.run-extra-img img{
+
+    /* height: 300px; */
+    width: 450px;
+    border-radius:10%;
+}
+/* run extra end */
