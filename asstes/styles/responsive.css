@@ -142,9 +142,17 @@ Large Device: above 993 px  */
 
 .bim-data{
     flex-direction: column;
+    
 }
-.chart{
+.bim-head h1{
+    font-size: 25px;
+}
+.bim-data h1{
+    font-size:25px;
+}
+.chart table{
     width: 65%;
+    margin-left: 15%;
 }
 
 .bim-data{
@@ -168,17 +176,24 @@ Large Device: above 993 px  */
 }
 .form-field{
     width:80%;
+    margin-left: -2px;
 .sex{
     width:45%;
 }
+/* .bmi-form-container{
+    position: relative;
+} */
 .active-factor{
-    /* margin-top: 3px; */
-    width:-2px;
-   
+    width:60%;
+     margin-left:145px;
+    
 }
+
 .btn-calculate{
-    margin-left:5%;
+    margin-left:140px;
+    
 }
+
 
 /* BMI Calculator section end*/
 
