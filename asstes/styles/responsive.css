@@ -177,6 +177,7 @@ Large Device: above 993 px  */
 .form-field{
     width:80%;
     margin-left: -2px;
+}
 .sex{
     width:45%;
 }
@@ -197,6 +198,49 @@ Large Device: above 993 px  */
 
 /* BMI Calculator section end*/
 
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+#jerome-p{
+   top: 25%;
+    left: 25%;
 }
 
+
+#cameron-p{
+     top: 60%;
+    left: 25%;
+
+}
+#darrell-p{
+    
+    top: 89%;
+    left: 25%;
+}
+
+#dianne-p{
+    bottom:75%;
+    left: 25%;
+
+}
+
+#cody-p{
+    bottom:38%;
+    left: 25%; 
+}
+
+#theresa-p{
+   
+    bottom:2%;
+    left: 20%; 
+}
+/* our team end */
+
+
+
+
+
+
+
+
+}
 

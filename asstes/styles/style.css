@@ -436,8 +436,10 @@ color: rgba(255, 255, 255, 0.6);
     min-height: 400px; 
     margin-top: 4%;
     color:white;
+    border-radius: 10px;
     
 }
+
 
 .tem-heading{
     text-align: center;
