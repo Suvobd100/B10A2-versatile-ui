@@ -431,7 +431,7 @@ color: rgba(255, 255, 255, 0.6);
 /* --------------------------------------------------------- */
 /* meet our team start */
 .team-container{
-    max-width: 1200px;
+    max-width:1200px;
     margin: 0 auto;
     min-height: 400px; 
     margin-top: 4%;
@@ -442,18 +442,115 @@ color: rgba(255, 255, 255, 0.6);
 .tem-heading{
     text-align: center;
 }
-
+.tem-heading p{
+margin-top: 20px;
+color: rgba(255, 255, 255, 0.6);
+}
 .img-container-1{
     display: flex;
+   /* background-color: #E6533C; */
+   justify-content: center;
+   flex-wrap: wrap;
+   overflow: hidden;
+   margin-top: 50px;
 }
 .img-container-2{
     display: flex;
+    justify-content: center;
+    /* background-color: aquamarine; */
+    flex-wrap: wrap;
+    overflow: hidden;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .img-box img{
-    width:70%;
-    height: 50%;
+    width: 300px;
+    height: 250px;
     object-fit: contain;
     border-radius: 10%;
 }
+/* ------------------img trainer name--start---------------------- */
+#jerome-img{
+    position: relative;
+    
+}
+#jerome-p{
+    color: white;
+    position: absolute;
+     top: 70%;
+    left: 15%;
+}
+
+#jerome-p span{
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 11px;
+   
+}
+
+#cameron-p{
+    color: white;
+    position: absolute;
+     top: 70%;
+    left: 40%;
+
+}
+
+#cameron-p span{
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 11px;
+}
+#darrell-p span{
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 11px;
+}
+
+#darrell-p{
+    color: white;
+    position: absolute;
+     top: 70%;
+    left: 67%;
+}
+
+#dianne-img{
+    position: relative;
+}
+#dianne-p{
+    color: white;
+    position: absolute;
+    bottom:20%;
+    left: 15%;
+
+}
+
+#dianne-p  span{
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 11px;
+
+}
+#cody-p span{
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 11px;
+
+}
+
+#cody-p{
+    color: white;
+    position: absolute;
+    bottom:20%;
+    left: 40%; 
+}
+#theresa-p{
+    color: white;
+    position: absolute;
+    bottom:20%;
+    left: 65%; 
+}
+
+#theresa-p span{
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 11px;
+
+}
+   
 /* meet our team end */
