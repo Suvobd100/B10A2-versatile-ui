@@ -556,3 +556,31 @@ color: rgba(255, 255, 255, 0.6);
 }
    
 /* meet our team end */
+
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+/* footer started */
+
+#footer-container{
+    color: white;
+    width:1200px;
+    min-width: 400px;
+    border: 3px solid blue;
+    margin: 0 auto;
+}
+.footer-item{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+
+}
+
+
+footer h4{
+    text-align: center;
+    margin-top: 10%;
+    color: red;
+}
+/* footer end */
+
