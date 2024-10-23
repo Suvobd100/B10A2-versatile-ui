@@ -164,6 +164,12 @@ Large Device: above 993 px  */
     margin-bottom: 2%;
     margin-top: 2%;
 }
+/* now added */
+.calculate-headre p{
+    font-size: 15px;
+
+}
+/* now added */
 .calculate-headre p{
     text-align: center;
     /* margin-bottom: 2%; */
