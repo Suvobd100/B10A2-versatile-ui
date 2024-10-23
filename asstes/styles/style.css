@@ -427,5 +427,33 @@ color: rgba(255, 255, 255, 0.6);
 }
 /* calculate form end */
 
-
 /* BMI Calculator section end*/
+/* --------------------------------------------------------- */
+/* meet our team start */
+.team-container{
+    max-width: 1200px;
+    margin: 0 auto;
+    min-height: 400px; 
+    margin-top: 4%;
+    color:white;
+    
+}
+
+.tem-heading{
+    text-align: center;
+}
+
+.img-container-1{
+    display: flex;
+}
+.img-container-2{
+    display: flex;
+}
+
+.img-box img{
+    width:70%;
+    height: 50%;
+    object-fit: contain;
+    border-radius: 10%;
+}
+/* meet our team end */
