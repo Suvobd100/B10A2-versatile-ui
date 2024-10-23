@@ -235,6 +235,30 @@ Large Device: above 993 px  */
 }
 /* our team end */
 
+/* ========================================================= */
+
+/* footer start */
+.footer-col{
+    width: 100%;
+}
+
+.container{
+    width: 90%;
+    
+    margin: 0 auto;
+}
+
+footer{
+    padding:0;
+}
+
+.alright hr{
+    width: 90%;
+   
+}
+
+/* footer end */
+
 
 
 
