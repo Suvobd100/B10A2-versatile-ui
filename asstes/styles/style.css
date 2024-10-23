@@ -565,7 +565,7 @@ color: rgba(255, 255, 255, 0.6);
     color: white;
     width:1200px;
     height: 300px;
-    border: 3px solid blue;
+    /* border: 3px solid blue; */
     margin: 0 auto;
 }
 .footer-item{
@@ -576,14 +576,33 @@ color: rgba(255, 255, 255, 0.6);
 
 .footer-heading h1{
     margin-bottom: 10%;
-
     color: #E6533C;
     font-weight: 800;
     Font-size: 36px;
     font-style: italic;
 
 }
+.footer-items p{
 
+color: rgba(255, 255, 255, 0.6);
+
+}
+.footer-item ul li{
+
+  list-style: none;
+  margin-top: 10px;
+  color: rgba(255, 255, 255, 0.6);
+}
+.footer-item li a{
+    text-decoration: none;
+}
+
+.hr{
+    width:1200px;
+    margin: 0 auto;
+    color: rgba(255, 255, 255, 0.6);
+
+}
 #allright{
     width: 1200px;
     height: 100px;
